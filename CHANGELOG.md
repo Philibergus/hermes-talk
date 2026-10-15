@@ -21,6 +21,12 @@ named rather than smoothed.
   `TALK_GROK_VOICE`. Ara remains the default; names remain case-insensitive
   and unknown names refuse closed. Config-to-session regression coverage
   exercises every documented voice. Contributed by @zoidypuh.
+- An [xAI speech-tag reference](docs/XAI-SPEECH-TAGS.md) with 114 exact inline
+  spellings and 13 phrase wrappers from Switchboard field notes. It records
+  positive, variable, and unclassified observations, explains how Grok turns
+  Hermes results into speech, and distinguishes that flow from verbatim TTS.
+  This is experimental documentation, not a new provider or runtime guarantee.
+  Contributed by @zoidypuh.
 - An optional presence bus on the Talk page. Talk dispatches a
   `hermes-talk:presence` event on `window` whenever the call's phase, live
   caption, audio activity, recent transcript, mute, or sleep state changes, and
